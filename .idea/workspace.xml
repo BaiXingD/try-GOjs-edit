@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8836a0bc-db16-4a9b-a885-b09dc9e142dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,9 +22,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="-1920">
+              <caret line="88" column="35" lean-forward="false" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
               <folding>
+                <element signature="e#948#1493#0" expanded="false" />
+                <element signature="e#1659#2091#0" expanded="false" />
+                <element signature="e#2180#3199#0" expanded="false" />
+                <element signature="e#3635#4551#0" expanded="false" />
+                <element signature="e#8630#9281#0" expanded="false" />
+                <element signature="e#10271#10528#0" expanded="false" />
+                <element signature="e#10845#11019#0" expanded="false" />
+                <element signature="e#12918#13163#0" expanded="false" />
+                <element signature="e#13262#13401#0" expanded="false" />
+                <element signature="e#13426#13533#0" expanded="false" />
+                <element signature="e#13632#13979#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -34,15 +47,76 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../photon/dist/template-app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../photon/dist/template-app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="go.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="694569">
+              <caret line="40863" column="218" lean-forward="false" selection-start-line="40863" selection-start-column="218" selection-end-line="40863" selection-end-column="218" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>copyright</find>
-      <find>myDiagramDiv</find>
       <find>Copyright</find>
       <find>footer</find>
+      <find>myDiagramDiv</find>
       <find>myPaletteDiv</find>
+      <find>model</find>
+      <find>myDiagram.model</find>
+      <find>load()</find>
+      <find>GraphLinksModel</find>
+      <find>linkTemplateMap</find>
+      <find>showPorts</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -55,6 +129,8 @@
         <option value="$PROJECT_DIR$/go.js" />
         <option value="$USER_HOME$/Downloads/site/flowchart.html" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/../photon/dist/template-app/app.js" />
+        <option value="$PROJECT_DIR$/../photon/dist/template-app/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -67,9 +143,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="477" />
+    <option name="x" value="544" />
     <option name="y" value="23" />
-    <option name="width" value="1184" />
+    <option name="width" value="1378" />
     <option name="height" value="982" />
   </component>
   <component name="ProjectView">
@@ -206,19 +282,21 @@
       <updated>1496625491884</updated>
       <workItem from="1496625493130" duration="2773000" />
       <workItem from="1496628524238" duration="1456000" />
-      <workItem from="1496640730262" duration="68000" />
+      <workItem from="1496640730262" duration="18979000" />
+      <workItem from="1496797948492" duration="853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4297000" />
+    <option name="totallyTimeSpent" value="24061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="477" y="23" width="1184" height="982" extended-state="1" />
+    <frame x="544" y="23" width="1378" height="982" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21480407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112814896" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -242,7 +320,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -252,6 +330,88 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#948#1493#0" expanded="false" />
+            <element signature="e#1659#2091#0" expanded="false" />
+            <element signature="e#2180#3199#0" expanded="false" />
+            <element signature="e#3635#4551#0" expanded="false" />
+            <element signature="e#8630#9281#0" expanded="false" />
+            <element signature="e#10271#10528#0" expanded="false" />
+            <element signature="e#10845#11019#0" expanded="false" />
+            <element signature="e#12918#13163#0" expanded="false" />
+            <element signature="e#13262#13401#0" expanded="false" />
+            <element signature="e#13426#13533#0" expanded="false" />
+            <element signature="e#13632#13979#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../photon/dist/template-app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../photon/dist/template-app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694671">
+          <caret line="40863" column="218" lean-forward="false" selection-start-line="40863" selection-start-column="218" selection-end-line="40863" selection-end-column="218" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#948#1493#0" expanded="false" />
+            <element signature="e#1659#2091#0" expanded="false" />
+            <element signature="e#2180#3199#0" expanded="false" />
+            <element signature="e#3635#4551#0" expanded="false" />
+            <element signature="e#8630#9281#0" expanded="false" />
+            <element signature="e#10271#10528#0" expanded="false" />
+            <element signature="e#10845#11019#0" expanded="false" />
+            <element signature="e#12918#13163#0" expanded="false" />
+            <element signature="e#13262#13401#0" expanded="false" />
+            <element signature="e#13426#13533#0" expanded="false" />
+            <element signature="e#13632#13979#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -267,6 +427,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#948#1493#0" expanded="false" />
+            <element signature="e#1659#2091#0" expanded="false" />
+            <element signature="e#2180#3199#0" expanded="false" />
+            <element signature="e#3635#4551#0" expanded="false" />
+            <element signature="e#8630#9281#0" expanded="false" />
+            <element signature="e#10271#10528#0" expanded="false" />
+            <element signature="e#10845#11019#0" expanded="false" />
+            <element signature="e#12918#13163#0" expanded="false" />
+            <element signature="e#13262#13401#0" expanded="false" />
+            <element signature="e#13426#13533#0" expanded="false" />
+            <element signature="e#13632#13979#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -281,21 +452,7 @@
     <entry file="file://$PROJECT_DIR$/release/go.js" />
     <entry file="file://$PROJECT_DIR$/11/index.html" />
     <entry file="file://$PROJECT_DIR$/go-debug.js" />
-    <entry file="file://$USER_HOME$/Downloads/site/flowchart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="303" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="40863" column="218" lean-forward="false" selection-start-line="40863" selection-start-column="218" selection-end-line="40863" selection-end-column="218" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/site/flowchart.html" />
     <entry file="file://$PROJECT_DIR$/../electron-quick-start/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -312,23 +469,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/electron-boilerplate-master/boilerplate/index.html" />
+    <entry file="file://$USER_HOME$/Downloads/electron-boilerplate-master/boilerplate/index.js" />
+    <entry file="file://$PROJECT_DIR$/go.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694569">
+          <caret line="40863" column="218" lean-forward="false" selection-start-line="40863" selection-start-column="218" selection-end-line="40863" selection-end-column="218" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../photon/dist/template-app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../photon/dist/template-app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="-1920">
+          <caret line="88" column="35" lean-forward="false" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
           <folding>
+            <element signature="e#948#1493#0" expanded="false" />
+            <element signature="e#1659#2091#0" expanded="false" />
+            <element signature="e#2180#3199#0" expanded="false" />
+            <element signature="e#3635#4551#0" expanded="false" />
+            <element signature="e#8630#9281#0" expanded="false" />
+            <element signature="e#10271#10528#0" expanded="false" />
+            <element signature="e#10845#11019#0" expanded="false" />
+            <element signature="e#12918#13163#0" expanded="false" />
+            <element signature="e#13262#13401#0" expanded="false" />
+            <element signature="e#13426#13533#0" expanded="false" />
+            <element signature="e#13632#13979#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
