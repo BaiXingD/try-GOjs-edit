@@ -2,19 +2,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flowchart Presentation</title>
+
     <script>
         // 重命名 Electron 提供的 require
         window.nodeRequire = require;
-        delete window.require;
-        delete window.exports;
+        //delete window.require;
+        //delete window.exports;    //影响go.js加载
         delete window.module;
     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Flowchart</title>
+
+    <!--Photon样式和组件-->
+    <link rel="stylesheet" href="Photon/photon.css">
+    <!-- Photon Javascript -->
+    <script src="Photon/menu.js" charset="utf-8"></script>
+
     <meta name="description" content="Interactive flowchart diagram implemented by GoJS in JavaScript for HTML." />
     <!-- Copyright 1998-2017 by Northwoods Software Corporation. -->
     <meta charset="UTF-8">
-    <script src="go.js"></script>
+    <script src="GOjs/go.js"></script>
     <script id="code">
         function init() {
             //if (window.goSamples) goSamples();  // init for these samples -- you don't need to call this
@@ -185,6 +192,67 @@
                             new go.Binding("text").makeTwoWay())
                     )
                 );
+
+
+            // the context menu allows users to make a position vacant,
+            // remove a role and reassign the subtree, or remove a department
+            myDiagram.nodeTemplate.contextMenu =
+                $(go.Adornment, "Vertical",
+                    $("ContextMenuButton",
+                        $(go.TextBlock, "右键选项1"),    //Vacate Position
+                        {
+                            click: function(e, obj) {
+                                var node = obj.part.adornedPart;
+                                if (node !== null) {
+//                                    var thisemp = node.data;
+//                                    myDiagram.startTransaction("vacate");
+//                                    // update the key, name, and comments
+//                                    myDiagram.model.setKeyForNodeData(thisemp, getNextKey());
+//                                    myDiagram.model.setDataProperty(thisemp, "name", "(Vacant)");
+//                                    myDiagram.model.setDataProperty(thisemp, "comments", "");
+//                                    myDiagram.commitTransaction("vacate");
+                                }
+                            }
+                        }
+                    ),
+                    $("ContextMenuButton",
+                        $(go.TextBlock, "右键选项2"),   //Remove Role
+                        {
+                            click: function(e, obj) {
+                                // reparent the subtree to this node's boss, then remove the node
+                                var node = obj.part.adornedPart;
+                                if (node !== null) {
+//                                    myDiagram.startTransaction("reparent remove");
+//                                    var chl = node.findTreeChildrenNodes();
+//                                    // iterate through the children and set their parent key to our selected node's parent key
+//                                    while(chl.next()) {
+//                                        var emp = chl.value;
+//                                        myDiagram.model.setParentKeyForNodeData(emp.data, node.findTreeParentNode().data.key);
+//                                    }
+//                                    // and now remove the selected node itself
+//                                    myDiagram.model.removeNodeData(node.data);
+//                                    myDiagram.commitTransaction("reparent remove");
+                                }
+                            }
+                        }
+                    ),
+                    $("ContextMenuButton",
+                        $(go.TextBlock, "右键选项3"),    //Remove Department
+                        {
+                            click: function(e, obj) {
+                                // remove the whole subtree, including the node itself
+                                var node = obj.part.adornedPart;
+                                if (node !== null) {
+//                                    myDiagram.startTransaction("remove dept");
+//                                    myDiagram.removeParts(node.findTreeParts());
+//                                    myDiagram.commitTransaction("remove dept");
+                                }
+                            }
+                        }
+                    )
+                );
+
+
             // Make link labels visible if coming out of a "conditional" node.
             // This listener is called by the "LinkDrawn" and "LinkRelinked" DiagramEvents.
             function showLinkLabel(e) {
@@ -209,7 +277,7 @@
                             { text: "操作" },
                             { text: "变换", figure: "Diamond" },
                             { category: "End", text: "完成" },
-                            { category: "Comment", text: "其他" }
+                            { category: "Comment", text: "备注" }
                         ])
                     });
             // The following code overrides GoJS focus to stop the browser from scrolling
@@ -273,8 +341,9 @@
 
     <button id="SaveButton" onclick="save()">Save</button>
     <button onclick="load()">Load</button>
-    Diagram Model saved in JSON format:
-    <textarea id="mySavedModel" style="width:100%;height:300px;visibility:visible;">
+
+Diagram Model saved in JSON format:
+<textarea id="mySavedModel" style="width:100%;height:300px;visibility:visible;">
 { "class": "go.GraphLinksModel",
   "linkFromPortIdProperty": "fromPort",
   "linkToPortIdProperty": "toPort",
