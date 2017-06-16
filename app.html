@@ -3,6 +3,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive flowchart diagram implemented by GoJS in JavaScript for HTML." />
+    <!-- Copyright 1998-2017 by Northwoods Software Corporation. -->
+    <meta charset="UTF-8">
     <title>Flowchart Presentation</title>
 
     <script>
@@ -15,12 +18,10 @@
 
     <!--Photon样式和组件-->
     <link rel="stylesheet" href="Photon/photon.css">
-    <!-- Photon Javascript -->
     <script src="Photon/menu.js" charset="utf-8"></script>
+    <!--bootstrap 样式-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <meta name="description" content="Interactive flowchart diagram implemented by GoJS in JavaScript for HTML." />
-    <!-- Copyright 1998-2017 by Northwoods Software Corporation. -->
-    <meta charset="UTF-8">
     <script src="GOjs/go.js"></script>
     <script id="code">
         function init() {
@@ -315,7 +316,7 @@
         // add an SVG rendering of the diagram at the end of this page
         function makeSVG() {
             var svg = myDiagram.makeSvg({
-                scale: 0.5
+                scale: 1
             });
             svg.style.border = "1px solid black";
             obj = document.getElementById("SVGArea");
@@ -331,52 +332,59 @@
 <div id="sample">
     <div style="width:100%; white-space:nowrap;">
         <span style="display: inline-block; vertical-align: top; width:20%">
-          <div id="myPaletteDiv" style="border: solid 1px black; height: 720px"></div>
+          <div id="myPaletteDiv" style="border: solid 1px black; height: 600px"></div>
         </span>
 
         <span style="display: inline-block; vertical-align: top; width:80%">
-          <div id="myDiagramDiv" style="border: solid 1px black; height: 720px"></div>
+          <div id="myDiagramDiv" style="border: solid 1px black; height: 600px"></div>
         </span>
     </div>
 
-    <button id="SaveButton" onclick="save()">Save</button>
-    <button onclick="load()">Load</button>
+    <div style="text-align: center;margin-top: 10px;margin-bottom: 10px">
+        <button class="btn btn-lg btn-success" id="SaveButton" onclick="save()">保存</button>
+        <button class="btn btn-lg btn-info" onclick="load()">载入</button>
+    </div>
+    <div class="alert alert-success" role="alert">
+        <strong>左键双击目标：</strong> 修改文字内容<br />
+        <strong>左键双击背景：</strong> 可以拖动选择<br />
+        <strong>右键单击：</strong> 右键菜单<br />
+        <strong>支持撤销：</strong> CTRL+Z / CTRL+Y<br />
+        <strong>支持缩放：</strong> CTRL+鼠标滚轮<br />
+        <strong>快速复制：</strong> ALT+拖动<br />
 
-Diagram Model saved in JSON format:
-<textarea id="mySavedModel" style="width:100%;height:300px;visibility:visible;">
-{ "class": "go.GraphLinksModel",
-  "linkFromPortIdProperty": "fromPort",
-  "linkToPortIdProperty": "toPort",
-  "nodeDataArray": [
-{"key":-1, "category":"Start", "loc":"175 0", "text":"开始"},
-{"key":0, "loc":"0 85", "text":"操作1"},
-{"key":1, "loc":"175 100", "text":"变换1"},
-{"key":2, "loc":"175 190", "text":"变换2"},
-{"key":3, "loc":"175 270", "text":"变换3"},
-{"key":4, "loc":"175 370", "text":"变化4"},
-{"key":5, "loc":"352 85", "text":"操作2"},
-{"key":6, "loc":"175 440", "text":"操作3"},
-{"key":7, "loc":"175 500", "text":"操作4"},
-{"key":8, "loc":"175 570", "text":"操作5"},
-{"key":-2, "category":"End", "loc":"175 640", "text":"完成!"}
- ],
-  "linkDataArray": [
-{"from":1, "to":2, "fromPort":"B", "toPort":"T"},
-{"from":2, "to":3, "fromPort":"B", "toPort":"T"},
-{"from":3, "to":4, "fromPort":"B", "toPort":"T"},
-{"from":4, "to":6, "fromPort":"B", "toPort":"T"},
-{"from":6, "to":7, "fromPort":"B", "toPort":"T"},
-{"from":7, "to":8, "fromPort":"B", "toPort":"T"},
-{"from":8, "to":-2, "fromPort":"B", "toPort":"T"},
-{"from":-1, "to":0, "fromPort":"B", "toPort":"T"},
-{"from":-1, "to":1, "fromPort":"B", "toPort":"T"},
-{"from":-1, "to":5, "fromPort":"B", "toPort":"T"},
-{"from":5, "to":4, "fromPort":"B", "toPort":"T"},
-{"from":0, "to":4, "fromPort":"B", "toPort":"T"}
- ]}
-  </textarea>
-    <button onclick="makeSVG()">Render as SVG</button>
-    <div id="SVGArea"></div>
+    </div>
+
+
+<textarea id="mySavedModel" style="width:100%;height:300px;visibility:visible;border:solid 1px black ">
+    { "class": "go.GraphLinksModel",
+      "linkFromPortIdProperty": "fromPort",
+      "linkToPortIdProperty": "toPort",
+      "nodeDataArray": [
+        {"key":-1, "category":"Start", "loc":"175 0", "text":"开始"},
+        {"key":0, "loc":"0 85", "text":"操作1"},
+        {"key":1, "loc":"175 100", "text":"变换1","figure":"Diamond"},
+        {"key":2, "loc":"175 190", "text":"变换2","figure":"Diamond"},
+        {"key":3, "loc":"175 270", "text":"变换3","figure":"Diamond"},
+        {"key":4, "loc":"175 370", "text":"变换4","figure":"Diamond"},
+        {"key":5, "loc":"352 85", "text":"操作2"},
+        {"key":6, "loc":"175 440", "text":"操作3"},
+        {"key":-2, "category":"End", "loc":"175 510", "text":"完成!"}
+     ],
+      "linkDataArray": [
+        {"from":1, "to":2, "fromPort":"B", "toPort":"T"},
+        {"from":2, "to":3, "fromPort":"B", "toPort":"T"},
+        {"from":3, "to":4, "fromPort":"B", "toPort":"T"},
+        {"from":4, "to":6, "fromPort":"B", "toPort":"T"},
+        {"from":6, "to":-2, "fromPort":"B", "toPort":"T"},
+        {"from":-1, "to":0, "fromPort":"B", "toPort":"T"},
+        {"from":-1, "to":1, "fromPort":"B", "toPort":"T"},
+        {"from":-1, "to":5, "fromPort":"B", "toPort":"T"},
+        {"from":5, "to":4, "fromPort":"B", "toPort":"R"},
+        {"from":0, "to":4, "fromPort":"B", "toPort":"L"}
+     ]}
+</textarea>
+    <button class="btn btn-lg btn-primary center-block" style="text-align: center" onclick="makeSVG()">转换为SVG</button>
+    <div id="SVGArea" style="text-align: center;padding-bottom: 5px"></div>
 </div>
 
 </body>

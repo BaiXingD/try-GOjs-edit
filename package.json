@@ -1,11 +1,15 @@
 {
-  "name": "your-app",
+  "name": "Flowtchar-Presentation",
   "version": "0.1.0",
+  "description": "Try Electron application",
   "main": "main.js",
-  "devDependencies": {
-    "electron": "^1.6.10"
+  "scripts": {
+    "start": "electron ."
   },
-  "dependencies": {
-    "jointjs": "^1.1.0"
+  "repository": "https://github.com/electron/electron-quick-start",
+  "author": "Baixd",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.1"
   }
 }
